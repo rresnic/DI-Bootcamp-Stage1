@@ -1,0 +1,35 @@
+.green{
+    width:100%;
+    min-height:20vh;
+    background-color: green;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container>div{
+    margin-top: 1em;
+}
+.container>div:not(:last-child) {
+    margin-right:1%;
+}
+.container div{
+    flex: 0 0 31.3%;
+    border: 1px solid black;
+    height:31.3vw;
+}
+.myImg img{
+    max-width:100%;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    flex:1;
+    background-color: lightblue;
+}
+.orange {
+    flex:1;
+    background-color: orange;
+}

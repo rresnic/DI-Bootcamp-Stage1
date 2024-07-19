@@ -1,0 +1,21 @@
+div {
+    min-height: 20vh;
+}
+.row {
+    margin-bottom:16px;
+}
+.left {
+    background-color: lightcoral;
+    float: left;
+    width: 33%;
+}
+.right {
+    background-color: lightblue;
+    float: right;
+    width: 63%
+}
+.cleared {
+    clear:both;
+    background-color:yellow;
+    width: 100%;
+}
