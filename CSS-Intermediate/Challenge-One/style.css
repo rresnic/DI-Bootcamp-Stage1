@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    background-color: #364371;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    background-color: #B0CFFF;
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+}
+
+#content {
+    width: 60%;
+    float: right;
+    margin-right: 10%;
+}
+
+.setHeight85{
+    height: 85vh;
+}
+/* Ensure the inner div has no additional top margin */
+#sonnet {
+    margin: 0;
+    padding: 0;
+    background-color: #5B7FBD;
+}
+
+/* Add padding to content instead of margin for vertical spacing */
+#sonnet h1 {
+    padding-top: .5em;
+    margin: 0px;
+    /* Ensure no margin */
+}
+
+.copyright {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
